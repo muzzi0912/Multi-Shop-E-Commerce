@@ -1,0 +1,7 @@
+Laravel Payment system using stripe
+1. composer require stripe/stripe-php
+2. Create a stripe account
+3. Changes in the env
+4. Make route
+5. Make a view for payment
+6. Write code for payment in the controller

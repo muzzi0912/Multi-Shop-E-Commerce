@@ -1,0 +1,10 @@
+Pdf Download In Laravel
+1. composer require barryvdh/laravel-dompdf
+2. Go to config/app.php
+'providers' => [
+ Barryvdh\DomPDF\ServiceProvider::class,
+],
+   'aliases' => Facade::defaultAliases()->merge([
+     
+        'PDF' => Barryvdh\DomPDF\Facade::class,
+    ])->toArray()

@@ -1,0 +1,8 @@
+How To Implement SweetAlert In larevel
+1. composer require realrashid/sweet-alert
+2. php artisan sweetalert:publish
+3. Add this to the view where you want to show the message
+@include('sweetalert::alert')
+4. Go to your Controller and add this at the top
+use RealRashid\SweetAlert\Facades\Alert;
+5. Send the alert message from the controller and we are DONE.

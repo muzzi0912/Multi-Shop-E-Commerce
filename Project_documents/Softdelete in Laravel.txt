@@ -1,0 +1,9 @@
+Softdelete in Laravel
+Namespace: use Illuminate\Database\Eloquent\SoftDeletes
+• Invoking: use SoftDeletes;
+. Creating a softdelete column: $table->softDeletes();
+Other important functions:
+with Trashed().
+only Trashed()
+restore()
+forceDelete()
